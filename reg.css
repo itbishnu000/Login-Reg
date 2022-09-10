@@ -1,0 +1,87 @@
+body  
+{   
+    display: flex;
+    background: linear-gradient(135deg,#71b7e6,#9b59b6);
+    height: 97.9vh; 
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center
+    align-items: center;
+    background-size: cover;
+    background-attachment: fixed;
+} 
+
+.login{  
+        width: 330px;
+        height: 650px;
+        background: white; 
+        margin: 20 0 0 450px;  
+        overflow: hidden;
+        margin: auto;
+        padding: 20px;
+        border-radius: 3px;
+} 
+h1{
+    text-align: center;
+    margin-top: auto;
+    background: #71b7e6;
+    background: linear-gradient(135deg,#9a9ac8,#9b59b6);
+    padding: 3px;
+    color: aliceblue;
+    border-radius: 5px;
+}   
+#username{
+    width: 200px;  
+    height: 25px;  
+    border-radius: 3px;  
+    padding-left: 8px; 
+   
+}   
+label{  
+    color: black;  
+    font-size: 17px;
+    margin-right: px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    padding-left: 20px;
+    font-style: normal;
+}
+#input{  
+    width: 300px;  
+    height: 20px;  
+    border-radius: 3px;  
+    padding-left: 10px;  
+} 
+
+#gender{
+    width: 40px;
+    height: 15px;
+    padding-left: 10px; 
+}  
+#log{
+    margin-left: 40px;
+    width: 100px;  
+    height: 30px; 
+    border: none;  
+    border-radius: 10px;  
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background: linear-gradient(135deg,#9a9ac8,#9b59b6);
+}
+#city{
+
+    margin-left: 10px;
+    width: 70px;  
+    height: 20px; 
+    font-size: 15px;
+    border-radius: 3px;
+    
+}
+#box{
+    margin-left: -10px;
+}
+#pincode{
+    width: 90px;  
+    height: 20px;
+    padding-left: 10px;  
+}
